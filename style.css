@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    background-color: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8DBBO;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+list:hover {
+    color: darkmagenta;
+}
+
+#myname {
+    font-family: 'Benne', serif;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
